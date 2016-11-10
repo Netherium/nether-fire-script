@@ -1,11 +1,11 @@
 (function () {
     // Initialize Firebase
     const fireBaseConfig = {
-        apiKey: "AIzaSyAyuHzZXFi3X4oCLfPA4bx4BCQiR-D_tnU",
-        authDomain: "fir-js-boilerplate.firebaseapp.com",
-        databaseURL: "https://fir-js-boilerplate.firebaseio.com",
-        storageBucket: "fir-js-boilerplate.appspot.com",
-        messagingSenderId: "825487702609"
+        apiKey: "MYAPIKEY",
+        authDomain: "MYAUTHDOMAIN",
+        databaseURL: "MYDATABASEURL",
+        storageBucket: "MYSTORAGEBUCKET",
+        messagingSenderId: "MYMESSAGINGSENDERID"
     };
     firebase.initializeApp(fireBaseConfig);
 })();
