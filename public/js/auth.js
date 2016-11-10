@@ -42,7 +42,7 @@
          * @type {firebase.Promise<any>|!firebase.Promise.<!firebase.User>}
          */
         authRef.createUserWithEmailAndPassword(email, password).then(function (e) {
-            authRef.sendPasswordResetEmail(e.email);
+            authRef.currentUser.sendEmailVerification();
         }, function (e) {
             console.log('%c' + 'createUserWithEmailAndPassword' + ' event fired.', debugStyle);
             console.log(e);
@@ -82,7 +82,11 @@
             "blob": new Blob([file],
                 {type: file.type})
         };
-        storageRef.ref().child(authRef.currentUser.uid).child('profile.png').put(profileImage.blob)
+        storageRef.ref().child(authRef.currentUser.uid).child('profile.png').put(profileImage.blob).then(function (snapshot) {
+            console.log('Uploaded', snapshot.totalBytes, 'bytes.');
+            console.log(snapshot.metadata);
+            avatarElem.src = snapshot.metadata.downloadURLs[0];
+        });
     });
 
     // Handler for Authorization State Change
