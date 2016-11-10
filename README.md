@@ -13,6 +13,7 @@
 6. Set sample firebase database: `firebase database:set /streets streets.json`
 7. Deploy remotely `firebase deploy`
 8. Publish rules for database and storage i.e. https://console.firebase.google.com/project/MYPROJECTHERE/database/rules
+9. Enable 'Email/Password' provider under 'Authentication/SIGN-IN-METHOD' in [Firebase Console](https://console.firebase.google.com)
 
 ## Important Notes
 * Make sure you keep open the console on your web browser (Use Chrome preferably for proper styling and debugging)
