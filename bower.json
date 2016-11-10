@@ -1,0 +1,25 @@
+{
+  "name": "firebase-js-boilerplate",
+  "authors": [
+    "netherium"
+  ],
+  "description": "A starting kit for implementing firebase with pure javascript",
+  "main": "index.html",
+  "keywords": [
+    "firebase",
+    "javascript"
+  ],
+  "directory" : "public/bower_components",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "firebase": "^3.4.1",
+    "neth-strap-ium": "git://github.com/Netherium/neth-strap-ium.git"
+  }
+}

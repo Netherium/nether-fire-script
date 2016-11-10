@@ -1,0 +1,32 @@
+{
+  "0C0D7FE8-F42F-D19A-A865-BB4F30AD0451": {
+    "city": "Lisieux",
+    "address": "5763 Massa. Street",
+    "zip": "JR1X 3VH",
+    "coords": "28.2501, 169.11979"
+  },
+  "9150FA5C-062B-822B-8CD3-96B24D2CA2FB": {
+    "city": "Viesville",
+    "address": "P.O. Box 684, 6931 Risus. St.",
+    "zip": "XR1Z 6XO",
+    "coords": "-58.16785, 52.48596"
+  },
+  "ACEBDC20-CF69-B7CA-7812-8DEF111F6249": {
+    "city": "Sijsele",
+    "address": "P.O. Box 607, 7996 Fermentum St.",
+    "zip": "U5D 5QJ",
+    "coords": "49.23449, -179.18736"
+  },
+  "C294E139-2E61-C430-E22D-E904FA1C45BE": {
+    "city": "Lang",
+    "address": "P.O. Box 702, 600 Vitae Rd.",
+    "zip": "TZ4 9DR",
+    "coords": "41.83789, -127.23749"
+  },
+  "051E45F0-6B87-BB7B-F319-72F8E0E4BB4D": {
+    "city": "Newark",
+    "address": "P.O. Box 789, 3774 Vel Avenue",
+    "zip": "QC3 3MQ",
+    "coords": "32.25885, -96.57304"
+  }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Welcome to Firebase Hosting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="./bower_components/neth-strap-ium/dist/neth-strap-ium.min.css">
+    <script src="./bower_components/firebase/firebase.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="well">
+        <h2 class="border-bottom">Firebase Javascript Boilerplate</h2>
+        <h3>Basic Database Firebase sync</h3>
+        <ol>
+            <li>On <code>value</code> shown as JSON</li>
+            <li>On <code>child_added</code>, <code>child_removed</code>, <code>child_changed</code> shown as list
+            </li>
+        </ol>
+        <h3>Authorization</h3>
+        <ol>
+            <li>Sign up using <code>createUserWithEmailAndPassword()</code></li>
+            <li>Log in using <code>signInWithEmailAndPassword()</code></li>
+            <li>Signout using <code>signOut()</code></li>
+        </ol>
+    </div>
+    <!--Based on Firebase Tutorial by David East-->
+    <!--Getting started with Firebase Auth on the Web - Firecasts-->
+    <!--https://www.youtube.com/watch?v=-OKrloDzGpU-->
+    <div class="well" id="login-container">
+        <h2 id="login-container-title"></h2>
+
+        <div class="row">
+            <div class="col-6">
+                <img id="avatar" class="hidden" width="40px">
+            </div>
+            <div class="col-6 hidden" id="profile-image-container">
+                <input id="input-profile" type="file" placeholder="Profile Image" autocomplete="off" required>
+                <label for="input-profile">Profile Image</label>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-6">
+                <input id="email" type="text" placeholder="Email" autocomplete="off" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="col-6">
+                <input id="password" type="password" placeholder="Password" autocomplete="off" required>
+                <label for="password">Password</label>
+            </div>
+        </div>
+        <div>
+            <button id="button-login" class="button--primary">Log In</button>
+            <button id="button-signup" class="button--accent hidden">Sign Up</button>
+            <a id="link-signup" href="#">Don't have an account?</a>
+            <button id="button-logout" class="button--warn hidden">Log Out</button>
+            <a id="link-login" href="#">Back to login</a>
+        </div>
+    </div>
+    <div class="well" id="data-container">
+        <!--Database as JSON Object-->
+        <h2 class="border-bottom">Database as JSON Object</h2>
+        <pre id="streets-pre"></pre>
+
+        <!--Database as List-->
+        <h2 class="border-bottom">Database as List</h2>
+        <ul id="streets-list"></ul>
+    </div>
+</div>
+
+<script src="./js/init.js"></script>
+<script src="./js/auth.js"></script>
+<script src="./js/db.js"></script>
+</body>
+</html>

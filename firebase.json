@@ -1,0 +1,21 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "storage": {
+    "rules": "storage.rules.txt"
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      ".gitignore",
+      "firebase.json",
+      "**/.*",
+      "streets.json",
+      "**/firebase/**",
+      "!**/firebase/firebase.js",
+      "**/neth-strap-ium/**",
+      "!**/neth-strap-ium/dist/neth-strap-ium.min.css"
+    ]
+  }
+}

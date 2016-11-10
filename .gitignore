@@ -1,0 +1,5 @@
+.idea
+*~
+composer.lock
+public/bower_components
+.firebaserc
