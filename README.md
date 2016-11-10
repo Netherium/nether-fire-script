@@ -10,7 +10,7 @@
 3. Set sample firebase database: `firebase database:set /streets streets.json`
 4. Copy your config file for web app from [Firebase Console](https://console.firebase.google.com)
 5. Replace credentials in `public/js/init.js`
-6. Replace storage bucket in `public/storage.rules.txt`
+6. Replace storage bucket in `storage.rules.txt`
 7. Deploy remotely `firebase deploy`
 
 ## Important Notes
