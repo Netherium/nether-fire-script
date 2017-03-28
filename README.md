@@ -6,7 +6,7 @@
 
 ## Quick start
 1. Clone this repo: `git clone https://github.com/Netherium/nether-fire-script`
-2. Install Bower dependencies: `bower install` (All dependencies will be install under public folder)
+2. Install Bower dependencies: `bower install` (All dependencies will be installed under public folder)
 3. Copy your config file for web app from [Firebase Console](https://console.firebase.google.com)
 4. Replace **credentials** in `public/js/init.js` and **storage bucket** in `storage.rules.txt`
 5. Initialize firebase with `firebase use -add` to connect this project with your desired firebase project
