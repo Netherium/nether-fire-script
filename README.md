@@ -1,5 +1,5 @@
-#nether-fire-script
-###A simple firebase project for web implemented in pure javascript, that showcases
+# nether-fire-script
+### A simple firebase project for web implemented in pure javascript, that showcases
 * Firebase database sync
 * Firebase authentication
 * Firebase storage
